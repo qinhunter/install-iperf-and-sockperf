@@ -8,6 +8,7 @@ sudo apt-get install iperf -y
 #install sockperf 
 
 sudo apt-get install perl automake autoconf m4 libtool gcc -y
+sudo apt-get install git build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bc vim screen -y
 cd ~
 git clone https://github.com/Mellanox/sockperf.git
 cd sockperf
