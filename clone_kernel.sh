@@ -1,6 +1,6 @@
 #!/bin/sh
 
-usernow=`who | cut -d' ' -f1 | sort | tail -n 1`
+usernow=`whoami`
 
 sudo apt-get update
 sudo apt-get install perl automake autoconf m4 libtool gcc -y
